@@ -2,7 +2,7 @@
     margin: 0px;
     font-family: 'Work Sans';
 }
-
+/* header part */
 header{
     background-image: url('../images/banner/banner2.png');
     width: 100%;
@@ -10,6 +10,7 @@ header{
     margin-bottom: 130px;
     background-repeat: no-repeat;
 }
+/* banner part */
 .banner{
     text-align: right;
     padding: 226px 150px 0px 700px;
@@ -66,6 +67,7 @@ margin-right: 120px;
 ul{ 
     list-style:"\2713" ;
 }
+/* my plans section */
 .plan-title{
     text-align: center;
     font-weight: 700;
@@ -107,6 +109,7 @@ ul{
     border: none;
     padding: 16px 30px 16px 30px;
 }
+/* footer part */
 .footer-section{
     margin-top: 130px;
     display: flex;
@@ -114,12 +117,6 @@ ul{
     color: white;
     gap: 330px;
     padding: 130px 230px 130px 230px;
-}
-.icon{
-    display: flex;
-    margin: 20px;
-    gap: 20px;
-    text-decoration: none;
 }
 .footer-title{
     font-weight: 700;
@@ -130,6 +127,13 @@ ul{
     font-weight: 400;
     font-size: 16px;
 }
+.icon{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    text-decoration: none;
+}
+
 .sub-title{
     font-weight: 600;
     font-size: 25px;
